@@ -43,4 +43,47 @@ Dynarray (refcnt=2)
 Hello World
 </code></pre>
 
+## Python Code
 
+You should write your Python code as a module.
+
+e.g.
+
+<pre><code>
+# my_module.py
+
+import math
+
+PI = 3.14159
+
+def area_of_circle(radius):
+    return PI * radius ** 2
+
+class Greeter:
+    def __init__(self, name):
+        self.name = name
+
+    def say_hello(self):
+        return f"Hello, {self.name}!"
+
+</code></pre>
+
+You can then load it with importlib.util like this:
+
+<pre><code>
+import importlib.util
+import sys
+
+# Path to your Python file
+file_path = '/path/to/your_module.py'
+module_name = 'your_module'  # Name to assign to the loaded module
+
+# Load the module
+spec = importlib.util.spec_from_file_location(module_name, file_path)
+module = importlib.util.module_from_spec(spec)
+spec.loader.exec_module(module)
+
+# Now you can use it like any regular module
+module.some_function()
+print(module.some_variable)
+</code></pre>

@@ -1,8 +1,8 @@
 # LianjaCodeX
 
-This Lianja Codex (Code EXchange) for sharing libraries and code with other developers.
+Lianja Codex (Code Exchange) is a repo for sharing libraries and code with other Lianja developers.
 
-These can be written in LianjaScript or Python.
+The code can be written in LianjaScript or Python.
 
 ## LianjaScript Code
 
@@ -16,7 +16,7 @@ The filename specified as the argument to the require() function must exist in t
 
 e.g.
 
-<pre><code>```
+<pre><code>
 // mylibrary.prg
 public myvar = 10
 proc helloworld()
@@ -41,6 +41,6 @@ Dynarray (refcnt=2)
 )
         10
 Hello World
-```</code></pre>
+</code></pre>
 
 

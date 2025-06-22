@@ -68,7 +68,13 @@ class Greeter:
 
 </code></pre>
 
-You can then load it with importlib.util like this:
+The Lianja Library files are in the Python Path so you can use it like this:
+
+<pre><code>
+import my_module
+</code></pre>
+
+Alternatively you can then load modules dynamically with importlib.util like this:
 
 <pre><code>
 import importlib.util

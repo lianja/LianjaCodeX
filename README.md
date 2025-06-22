@@ -8,7 +8,7 @@ The code can be written in LianjaScript or Python.
 
 Code should be written as Dynamically loadable modules. 
 
-They provide Object Oriented encapsulation for existing LianjaScript code so that loading a library does not "pollute" the namespace and create potential problems due to name clashes.
+These provide Object Oriented encapsulation for LianjaScript code so that loading a library does not "pollute" the namespace and create potential problems due to name clashes.
 
 Use the require() function to dynamically load a library and reference its public variables and procedures/functions in an OO manner: object.property, object.method().
 

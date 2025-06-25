@@ -6,10 +6,10 @@
 //
 
 var myfunc = function() {
-    // myfunc code
+    Lianja.writeOutput("myfunc() was called")
 };
 var myfunc2 = function() {
-    // myfunc2 code
+    Lianja.writeOutput("myfunc2() was called")
 };
 module.exports.myfunc = myfunc;
 module.exports.myfunc2 = myfunc2;

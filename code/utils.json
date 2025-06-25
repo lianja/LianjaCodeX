@@ -1,0 +1,8 @@
+{
+   "name": "utils",
+   "displayname": "utils",
+   "description": "Example JavaScript module",
+   "author": "LianjaDev",
+   "version": "1.0",
+   "tags": "#js"
+}
